@@ -4,18 +4,10 @@ import "./PerfumeImage.css";
 
 export const PerfumeImage = () => {
   return (
-    <figure className="w-full h-full img_wrapper">
-      <img
-        src={BGDESKTOP}
-        alt=""
-        className="hidden object-cover w-full h-full rounded-l-xl sm:block"
-      />
-      <img
-        src={BGMOBILE}
-        alt=""
-        className="block object-cover w-full h-full mobile_image sm:hidden rounded-t-xl"
-      />
-    </figure>
+    <figure className="img_wrapper">
+    <img src={BGDESKTOP} alt="" className="desktop_image" />
+    <img src={BGMOBILE} alt="" className="mobile_image" />
+  </figure>
   );
 };
 
@@ -53,3 +45,6 @@ export const PerfumeImage = () => {
 //     </picture>
 //   );
 // };
+
+
+
