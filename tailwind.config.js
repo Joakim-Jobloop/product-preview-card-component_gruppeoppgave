@@ -16,6 +16,7 @@ export default {
           cream: "hsl(30, 38%, 92%)",
           darkblue: "hsl(212, 21%, 14%)",
           darkgrayblue: "hsl(228, 12%, 48%)",
+          darkercyan: "hsl(156, 42%, 18%)"
         },
       },
     },
